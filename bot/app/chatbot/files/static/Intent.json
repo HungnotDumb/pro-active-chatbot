@@ -22,4 +22,18 @@
       "text": [
         "Tell us about your creator.",
         "Tell us about Crispen Gari.",
-        "Tell us about you
+        "Tell us about yourself.",
+        "Tell us about who made you.",
+        "Who is Crispen Gari?",
+        "Who is Mr Gari?"
+      ],
+      "responses": [
+        "Crispen Gari is a software and artificial intelligence enthusiast with 4 years of experience.",
+        "Mr Crispen Gari a.k.a Crispen Gari is Software advisor and someone who loves GraphQL in general."
+      ]
+    },
+    {
+      "intent": "CreatorPrivateInfo",
+      "text": [
+        "How old is your creator?",
+        "Where does the creator live?"
