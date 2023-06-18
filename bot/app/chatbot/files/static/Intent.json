@@ -36,4 +36,14 @@
       "intent": "CreatorPrivateInfo",
       "text": [
         "How old is your creator?",
-        "Where does the creator live?"
+        "Where does the creator live?",
+        "Where does Crispen Gari live?",
+        "What is Crispen's favorite color?",
+        "What does crispen do for living?",
+        "What programming language does Mr Gari code in?"
+      ],
+      "responses": [
+        "For my creator's personal information contact him.",
+        "I'm not sure but it is worth to ask him.",
+        "If I answer that question i will be lying but try to contact Mr Gari.",
+        "Mr Gari said I should not tell people more ab
