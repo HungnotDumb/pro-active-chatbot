@@ -46,4 +46,16 @@
         "For my creator's personal information contact him.",
         "I'm not sure but it is worth to ask him.",
         "If I answer that question i will be lying but try to contact Mr Gari.",
-        "Mr Gari said I should not tell people more ab
+        "Mr Gari said I should not tell people more about him."
+      ]
+    },
+    {
+      "intent": "CreatorContacts",
+      "text": [
+        "How can i contact Mr Gari?",
+        "Give me your creator's contact.",
+        "Does your creator have whatsapp, intsagram or twitter?",
+        "What is Crispen's email address?"
+      ],
+      "responses": [
+        "You can contact Crispen Gari at, crispengari@gmail.com, +27 652 305 879, @crispengari_ on twitter, crispen.gari on facebook
