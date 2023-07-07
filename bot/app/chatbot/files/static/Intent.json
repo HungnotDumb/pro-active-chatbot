@@ -80,4 +80,27 @@
       ],
       "extension": {
         "function": "",
-        "entities": fal
+        "entities": false,
+        "responses": []
+      },
+      "context": {
+        "in": "",
+        "out": "GreetingUserRequest",
+        "clear": false
+      },
+      "entityType": "NA",
+      "entities": []
+    },
+    {
+      "intent": "GreetingResponse",
+      "text": [
+        "My user is Adam",
+        "This is Adam",
+        "I am Adam",
+        "It is Adam",
+        "My user is Bella",
+        "This is Bella",
+        "I am Bella",
+        "It is Bella"
+      ],
+      "
