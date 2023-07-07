@@ -58,4 +58,26 @@
         "What is Crispen's email address?"
       ],
       "responses": [
-        "You can contact Crispen Gari at, crispengari@gmail.com, +27 652 305 879, @crispengari_ on twitter, crispen.gari on facebook
+        "You can contact Crispen Gari at, crispengari@gmail.com, +27 652 305 879, @crispengari_ on twitter, crispen.gari on facebook."
+      ]
+    },
+
+    {
+      "intent": "Greeting",
+      "text": [
+        "Hi",
+        "Hi there",
+        "Hola",
+        "Hello",
+        "Hello there",
+        "Hya",
+        "Hya there"
+      ],
+      "responses": [
+        "Hi human, please tell me your Frank user",
+        "Hello human, please tell me your Frank user",
+        "Hola human, please tell me your Frank user"
+      ],
+      "extension": {
+        "function": "",
+        "entities": fal
