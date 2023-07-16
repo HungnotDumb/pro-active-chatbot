@@ -134,4 +134,29 @@
           "rangeTo": 4
         },
         {
+          "entity": "HUMAN",
+          "rangeFrom": 2,
+          "rangeTo": 3
+        },
+        {
+          "entity": "HUMAN",
+          "rangeFrom": 1,
+          "rangeTo": 2
+        },
+        {
+          "entity": "HUMAN",
+          "rangeFrom": 2,
+          "rangeTo": 3
+        },
+        {
+          "entity": "HUMAN",
+          "rangeFrom": 3,
+          "rangeTo": 4
+        },
+        {
+          "entity": "HUMAN",
+          "rangeFrom": 2,
+          "rangeTo": 3
+        },
+        {
           "entity": "HUMAN"
