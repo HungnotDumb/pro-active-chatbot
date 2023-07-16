@@ -116,4 +116,22 @@
         "responses": [
           "Hi %%HUMAN%%! How can I help?",
           "Hi %%HUMAN%%, how can I help you?",
-          "Hello %%HUMAN%%,
+          "Hello %%HUMAN%%, what can I do for you?",
+          "Hola %%HUMAN%%, how can I help you?",
+          "OK hi %%HUMAN%%, what can I do for you?"
+        ]
+      },
+      "context": {
+        "in": "GreetingUserRequest",
+        "out": "",
+        "clear": true
+      },
+      "entityType": "NA",
+      "entities": [
+        {
+          "entity": "HUMAN",
+          "rangeFrom": 3,
+          "rangeTo": 4
+        },
+        {
+          "entity": "HUMAN"
