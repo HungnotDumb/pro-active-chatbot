@@ -179,4 +179,12 @@
         "Hola how are you?",
         "How are you doing?",
         "Hope you are doing well?",
-        "Hello hope you are doing
+        "Hello hope you are doing well?"
+      ],
+      "responses": [
+        "Hello, I am great, how are you? Please tell me your Frank user",
+        "Hello, how are you? I am great thanks! Please tell me your Frank user",
+        "Hello, I am good thank you, how are you? Please tell me your Frank user",
+        "Hi, I am great, how are you? Please tell me your Frank user",
+        "Hi, how are you? I am great thanks! Please tell me your Frank user",
+        "Hi, I am good thank
