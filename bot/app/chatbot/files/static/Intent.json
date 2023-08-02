@@ -205,4 +205,17 @@
     },
     {
       "intent": "CourtesyGreetingResponse",
-     
+      "text": [
+        "Good thanks! My user is Adam",
+        "Good thanks! This is Adam",
+        "Good thanks! I am Adam",
+        "Good thanks! It is Adam",
+        "Great thanks! My user is Bella",
+        "Great thanks! This is Bella",
+        "Great thanks! I am Bella",
+        "Great thanks! It is Bella"
+      ],
+      "responses": [
+        "Great! Hi <HUMAN>! How can I help?",
+        "Good! Hi <HUMAN>, how can I help you?",
+  
