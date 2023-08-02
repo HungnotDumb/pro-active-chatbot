@@ -187,4 +187,22 @@
         "Hello, I am good thank you, how are you? Please tell me your Frank user",
         "Hi, I am great, how are you? Please tell me your Frank user",
         "Hi, how are you? I am great thanks! Please tell me your Frank user",
-        "Hi, I am good thank
+        "Hi, I am good thank you, how are you? Please tell me your Frank user",
+        "Hi, good thank you, how are you? Please tell me your Frank user"
+      ],
+      "extension": {
+        "function": "",
+        "entities": false,
+        "responses": []
+      },
+      "context": {
+        "in": "",
+        "out": "CourtesyGreetingUserRequest",
+        "clear": true
+      },
+      "entityType": "NA",
+      "entities": []
+    },
+    {
+      "intent": "CourtesyGreetingResponse",
+     
