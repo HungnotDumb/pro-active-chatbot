@@ -218,4 +218,15 @@
       "responses": [
         "Great! Hi <HUMAN>! How can I help?",
         "Good! Hi <HUMAN>, how can I help you?",
-  
+        "Cool! Hello <HUMAN>, what can I do for you?",
+        "OK! Hola <HUMAN>, how can I help you?",
+        "OK! hi <HUMAN>, what can I do for you?"
+      ],
+      "extension": {
+        "function": "extensions.gHumans.updateHuman",
+        "entities": true,
+        "responses": [
+          "Great %%HUMAN%%! How can I help?",
+          "Good %%HUMAN%%, how can I help you?",
+          "Cool %%HUMAN%%, what can I do for you?",
+          "OK %%HUMAN%%, h
