@@ -229,4 +229,24 @@
           "Great %%HUMAN%%! How can I help?",
           "Good %%HUMAN%%, how can I help you?",
           "Cool %%HUMAN%%, what can I do for you?",
-          "OK %%HUMAN%%, h
+          "OK %%HUMAN%%, how can I help you?",
+          "OK hi %%HUMAN%%, what can I do for you?"
+        ]
+      },
+      "context": {
+        "in": "GreetingUserRequest",
+        "out": "",
+        "clear": true
+      },
+      "entityType": "NA",
+      "entities": [
+        {
+          "entity": "HUMAN",
+          "rangeFrom": 5,
+          "rangeTo": 6
+        },
+        {
+          "entity": "HUMAN",
+          "rangeFrom": 4,
+          "rangeTo": 5
+       
