@@ -273,3 +273,25 @@
         {
           "entity": "HUMAN",
           "rangeFrom": 3,
+          "rangeTo": 4
+        },
+        {
+          "entity": "HUMAN",
+          "rangeFrom": 3,
+          "rangeTo": 4
+        }
+      ]
+    },
+    {
+      "intent": "CurrentHumanQuery",
+      "text": [
+        "What is my name?",
+        "What do you call me?",
+        "Who do you think I am?",
+        "What do you think I am?",
+        "Who are you talking to?",
+        "What name do you call me by?",
+        "Tell me my name"
+      ],
+      "responses": [
+        "You are <
