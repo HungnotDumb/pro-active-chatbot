@@ -294,4 +294,16 @@
         "Tell me my name"
       ],
       "responses": [
-        "You are <
+        "You are <HUMAN>! How can I help?",
+        "Your name is  <HUMAN>, how can I help you?",
+        "They call you <HUMAN>, what can I do for you?",
+        "Your name is <HUMAN>, how can I help you?",
+        "<HUMAN>, what can I do for you?"
+      ],
+      "extension": {
+        "function": "extensions.gHumans.getCurrentHuman",
+        "entities": false,
+        "responses": [
+          "You are %%HUMAN%%! How can I help?",
+          "Your name is  %%HUMAN%%, how can I help you?",
+          
