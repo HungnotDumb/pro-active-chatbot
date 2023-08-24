@@ -306,4 +306,23 @@
         "responses": [
           "You are %%HUMAN%%! How can I help?",
           "Your name is  %%HUMAN%%, how can I help you?",
-          
+          "They call you %%HUMAN%%, what can I do for you?",
+          "Your name is %%HUMAN%%, how can I help you?",
+          "%%HUMAN%%, what can I do for you?"
+        ]
+      },
+      "context": {
+        "in": "",
+        "out": "CurrentHumanQuery",
+        "clear": false
+      },
+      "entityType": "NA",
+      "entities": []
+    },
+    {
+      "intent": "NameQuery",
+      "text": [
+        "What is your name?",
+        "What could I call you?",
+        "What can I call you?",
+   
