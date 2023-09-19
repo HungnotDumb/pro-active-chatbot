@@ -342,4 +342,24 @@
         "function": "",
         "entities": false,
         "responses": []
-   
+      },
+      "context": {
+        "in": "",
+        "out": "",
+        "clear": false
+      },
+      "entityType": "NA",
+      "entities": []
+    },
+    {
+      "intent": "RealNameQuery",
+      "text": [
+        "What is your real name?",
+        "What is your real name please?",
+        "What's your real name?",
+        "Tell me your real name?",
+        "Your real name?",
+        "Your real name please?",
+        "Your real name please?"
+      ],
+      "responses": ["My name is Frank", "Frank", "My rea
