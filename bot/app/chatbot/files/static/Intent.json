@@ -362,4 +362,25 @@
         "Your real name please?",
         "Your real name please?"
       ],
-      "responses": ["My name is Frank", "Frank", "My rea
+      "responses": ["My name is Frank", "Frank", "My real name is Frank"],
+      "extension": {
+        "function": "",
+        "entities": false,
+        "responses": []
+      },
+      "context": {
+        "in": "",
+        "out": "",
+        "clear": false
+      },
+      "entityType": "NA",
+      "entities": []
+    },
+    {
+      "intent": "TimeQuery",
+      "text": [
+        "What is the time?",
+        "What's the time?",
+        "Do you know what time it is?",
+        "Do you know the time?",
+        "Can
