@@ -383,4 +383,22 @@
         "What's the time?",
         "Do you know what time it is?",
         "Do you know the time?",
-        "Can
+        "Can you tell me the time?",
+        "Tell me what time it is?",
+        "Time"
+      ],
+      "responses": ["One moment", "One sec", "One second"],
+      "extension": {
+        "function": "extensions.gTime.getTime",
+        "entities": false,
+        "responses": [
+          "The time is %%TIME%%",
+          "Right now it is %%TIME%%",
+          "It is around %%TIME%%"
+        ]
+      },
+      "context": {
+        "in": "",
+        "out": "",
+        "clear": false
+      
