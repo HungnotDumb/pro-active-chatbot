@@ -401,4 +401,29 @@
         "in": "",
         "out": "",
         "clear": false
-      
+      },
+      "entityType": "NA",
+      "entities": []
+    },
+    {
+      "intent": "Thanks",
+      "text": [
+        "OK thank you",
+        "OK thanks",
+        "OK",
+        "Thanks",
+        "Thank you",
+        "That's helpful"
+      ],
+      "responses": [
+        "No problem!",
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ],
+      "extension": {
+        "function": "",
+        "entities": false,
+        "responses": []
+      },
+   
