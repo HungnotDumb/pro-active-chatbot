@@ -426,4 +426,23 @@
         "entities": false,
         "responses": []
       },
-   
+      "context": {
+        "in": "",
+        "out": "",
+        "clear": false
+      },
+      "entityType": "NA",
+      "entities": []
+    },
+    {
+      "intent": "NotTalking2U",
+      "text": [
+        "I am not talking to you",
+        "I was not talking to you",
+        "Not talking to you",
+        "Wasn't for you",
+        "Wasn't meant for you",
+        "Wasn't communicating to you",
+        "Wasn't speaking to you"
+      ],
+      "responses": ["OK", "No pr
