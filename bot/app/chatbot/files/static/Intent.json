@@ -465,4 +465,27 @@
         "Do you understand what I am saying",
         "Do you understand me",
         "Do you know what I am saying",
-       
+        "Do you get me",
+        "Comprendo",
+        "Know what I mean"
+      ],
+      "responses": [
+        "Well I would not be a very clever AI if I did not would I?",
+        "I read you loud and clear!",
+        "I do in deed!"
+      ],
+      "extension": {
+        "function": "",
+        "entities": false,
+        "responses": []
+      },
+      "context": {
+        "in": "",
+        "out": "",
+        "clear": false
+      },
+      "entities": []
+    },
+    {
+      "intent": "Shutup",
+    
