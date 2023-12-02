@@ -488,4 +488,25 @@
     },
     {
       "intent": "Shutup",
-    
+      "text": [
+        "Be quiet",
+        "Shut up",
+        "Stop talking",
+        "Enough talking",
+        "Please be quiet",
+        "Quiet",
+        "Shhh"
+      ],
+      "responses": [
+        "I am sorry to disturb you",
+        "Fine, sorry to disturb you",
+        "OK, sorry to disturb you"
+      ],
+      "extension": {
+        "function": "",
+        "entities": false,
+        "responses": []
+      },
+      "context": {
+        "in": "",
+        "out": "
