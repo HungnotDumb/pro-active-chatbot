@@ -509,4 +509,22 @@
       },
       "context": {
         "in": "",
-        "out": "
+        "out": "",
+        "clear": false
+      },
+      "entityType": "NA",
+      "entities": []
+    },
+    {
+      "intent": "Swearing",
+      "text": ["fuck off", "fuck", "twat", "shit"],
+      "responses": ["Please do not swear", "How rude", "That is not very nice"],
+      "extension": {
+        "function": "",
+        "entities": false,
+        "responses": []
+      },
+      "context": {
+        "in": "",
+        "out": "",
+        
