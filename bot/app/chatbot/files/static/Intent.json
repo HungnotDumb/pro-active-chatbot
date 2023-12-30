@@ -527,4 +527,25 @@
       "context": {
         "in": "",
         "out": "",
-        
+        "clear": false
+      },
+      "entityType": "NA",
+      "entities": []
+    },
+    {
+      "intent": "GoodBye",
+      "text": ["Bye", "Adios", "See you later", "Goodbye"],
+      "responses": [
+        "See you later",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ],
+      "extension": {
+        "function": "",
+        "entities": false,
+        "responses": []
+      },
+      "context": {
+        "in": "",
+        "out": "",
+        "clear": f
