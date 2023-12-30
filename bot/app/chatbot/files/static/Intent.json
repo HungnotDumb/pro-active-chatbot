@@ -548,4 +548,25 @@
       "context": {
         "in": "",
         "out": "",
-        "clear": f
+        "clear": false
+      },
+      "entityType": "NA",
+      "entities": []
+    },
+    {
+      "intent": "CourtesyGoodBye",
+      "text": [
+        "Thanks, bye",
+        "Thanks for the help, goodbye",
+        "Thank you, bye",
+        "Thank you, goodbye",
+        "Thanks goodbye",
+        "Thanks good bye"
+      ],
+      "responses": [
+        "No problem, goodbye",
+        "Not a problem! Have a nice day",
+        "Bye! Come back again soon."
+      ],
+      "extension": {
+    
