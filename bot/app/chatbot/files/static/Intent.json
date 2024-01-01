@@ -591,4 +591,20 @@
         "Identify me",
         "Who am I please"
       ],
-      "responses": ["Let 
+      "responses": ["Let me see", "Please look at the camera"],
+      "extension": {
+        "function": "extensions.gHumans.getHumanByFace",
+        "entities": false,
+        "responses": [
+          "Hi %%HUMAN%%, how are you?",
+          "I believe you are %%HUMAN%%, how are you?",
+          "You are %%HUMAN%%, how are you doing?"
+        ]
+      },
+      "context": {
+        "in": "",
+        "out": "",
+        "clear": false
+      },
+      "entityType": "NA",
+      "ent
