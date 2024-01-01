@@ -607,4 +607,23 @@
         "clear": false
       },
       "entityType": "NA",
-      "ent
+      "entities": []
+    },
+    {
+      "intent": "Clever",
+      "text": [
+        "You are very clever",
+        "You are a very clever girl",
+        "You are very intelligent",
+        "You are a very intelligent girl",
+        "You are a genious",
+        "Clever girl",
+        "Genious"
+      ],
+      "responses": [
+        "Thank you, I was trained that way",
+        "I was trained well",
+        "Thanks, I was trained that way"
+      ],
+      "extension": {
+        "f
