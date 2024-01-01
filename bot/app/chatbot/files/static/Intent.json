@@ -626,4 +626,26 @@
         "Thanks, I was trained that way"
       ],
       "extension": {
-        "f
+        "function": "",
+        "entities": false,
+        "responses": []
+      },
+      "context": {
+        "in": "",
+        "out": "",
+        "clear": false
+      },
+      "entityType": "NA",
+      "entities": []
+    },
+    {
+      "intent": "Gossip",
+      "text": [
+        "I am bored gossip with me",
+        "Got any gossip",
+        "I want to hear some gossip",
+        "Tell me some gossip",
+        "Any gossip",
+        "Tell me some more gossip"
+      ],
+      "response
