@@ -950,4 +950,23 @@
       },
       "context": {
         "in": "",
-    
+        "out": "PodBayDoor",
+        "clear": false
+      },
+      "entityType": "NA",
+      "entities": []
+    },
+    {
+      "intent": "PodBayDoorResponse",
+      "text": [
+        "Why",
+        "Why not",
+        "Why can you not open the pod bay door",
+        "Why will you not open the pod bay door",
+        "Well why not",
+        "Surely you can",
+        "Tell me why"
+      ],
+      "responses": [
+        "It is classified, I could tell you but I would have to kill you!",
+        "Jim, I just
