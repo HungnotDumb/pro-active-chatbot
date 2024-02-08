@@ -934,4 +934,20 @@
     {
       "intent": "PodBayDoor",
       "text": [
-        "Open the pod b
+        "Open the pod bay door",
+        "Can you open the pod bay door",
+        "Will you open the pod bay door",
+        "Open the pod bay door please",
+        "Can you open the pod bay door please",
+        "Will you open the pod bay door please",
+        "Pod bay door"
+      ],
+      "responses": ["I’m sorry, I’m afraid I can’t do that!"],
+      "extension": {
+        "function": "",
+        "entities": false,
+        "responses": []
+      },
+      "context": {
+        "in": "",
+    
