@@ -38,4 +38,17 @@ class BotResponse(ObjectType):
 
 class RespondBot(Mutation):
     class Arguments:
-      
+        input = UserInput(required=True)
+
+    res = Field(lambda: BotResponse)
+    def mutate(root, args, input):
+        # make predictions
+        pred = predict_intent(model=chatbot_model, sent=input["text"])
+        classification = ClassificationType(
+            label = pred.get("label"),
+            intent = pred.get("intent"),
+            probability=pred.get("probability"),
+        )
+        meta = MetaType(
+            programmer=pred.get("meta").get("programmer"),
+     
