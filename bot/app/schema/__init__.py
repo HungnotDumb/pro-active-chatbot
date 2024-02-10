@@ -21,4 +21,21 @@ class MetaType(ObjectType):
 class ClassificationType(ObjectType):
     label = Int(required=True)
     intent = String(required=True)
-    probabil
+    probability = Float(required=True)
+    
+class BotAnswer(ObjectType):
+    response = String(required=True)
+    
+class UserQuestion(ObjectType):
+    text =  String(required=True)
+    
+class BotResponse(ObjectType):
+    classification = Field(ClassificationType, required=True)
+    meta = Field(MetaType, required=True)
+    answer = Field(BotAnswer, required=True)
+    question = Field(UserQuestion, required=True)
+    
+
+class RespondBot(Mutation):
+    class Arguments:
+      
