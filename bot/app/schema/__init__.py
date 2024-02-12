@@ -66,4 +66,20 @@ class RespondBot(Mutation):
             response = random.choice(responses)
         )
         res = BotResponse(
-     
+                classification=classification,
+                meta = meta,
+                question = question,
+                answer = answer
+        )
+        return RespondBot(res)
+    
+class Mutation(ObjectType):
+    get_response = RespondBot.Field()
+    
+class Query(ObjectType):
+    hello = String(required=True)
+    
+    def resolve_hello(root, args):
+        return "hello world"
+
+schema = Schema(mutation=Mutation, query=Query)
