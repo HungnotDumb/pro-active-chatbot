@@ -10,4 +10,4 @@ The `ui` for the web client will be looking as follows, and it will be `100%` re
 
 ### Languages used for the client application
 
-I used typescript as a programmin
+I used typescript as a programming language for the web client.
