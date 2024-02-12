@@ -1,0 +1,8 @@
+.message,
+.message__bot {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  min-width: 30%;
+  max-width: 70%;
+  color:
