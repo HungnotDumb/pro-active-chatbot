@@ -51,4 +51,19 @@ class RespondBot(Mutation):
         )
         meta = MetaType(
             programmer=pred.get("meta").get("programmer"),
+            project=pred.get("meta").get("project"),
+            main=pred.get("meta").get("main"),
+        )
+        question = UserQuestion(
+            text = input["text"]
+        )
+        
+        resp = list(filter(
+            lambda x: x["intent"].lower() == pred.get("intent"),
+            intents))[0]
+        responses = resp.get('responses')   
+        answer = BotAnswer(
+            response = random.choice(responses)
+        )
+        res = BotResponse(
      
