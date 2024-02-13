@@ -26,3 +26,13 @@ export const initializeApollo = (initialState = null) => {
       ...initialState,
     });
   }
+  if (typeof window === "undefined") return apolloClient;
+  if (!client) client = apolloClient;
+  return apolloClient;
+};
+
+export const useApollo = (initialState) => {
+  return useMemo(() => initializeApollo(initialState), [initialState]);
+};
+
+export const apolloClient = client ?? createApolloClient();
